@@ -13,6 +13,7 @@ setuptools.setup(
     python_requires='>=3.7', # Use Python 3.7 venv for the project
 	install_requires=[ 
         'Cython==0.29.21',
+        'docplex==2.25.236',
 		'numpy==1.19.1',
 		'qiskit==0.22.0',
 	]
