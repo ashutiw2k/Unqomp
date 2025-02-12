@@ -10,9 +10,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    python_requires='>=3.6',
-	install_requires=[
-		'qiskit==0.22.0', 
-		'numpy==1.19.1'
+    python_requires='>=3.7', # Use Python 3.7 venv for the project
+	install_requires=[ 
+        'Cython==0.29.21',
+		'numpy==1.19.1',
+		'qiskit==0.22.0',
 	]
 )
